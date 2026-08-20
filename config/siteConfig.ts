@@ -16,18 +16,18 @@ const img = (id: string) =>
 
 export const siteConfig = {
   // --- Agency ---------------------------------------------------------------
-  companyName: "Addis Car Rentals",
+  companyName: "Bole vip motors",
 
   // --- Contact / location ---------------------------------------------------
-  location: "Bole Medhanialem, Addis Ababa, Ethiopia",
+  location: "kazanchis, Addis Ababa",
   workingHours: "Mon – Sat: 8:00 AM – 8:00 PM",
 
-  phone: "+251 91 123 4567",
+  phone: "+251 91 987 6543",
   phoneHref: "tel:+251911234567",
 
   // --- Telegram -------------------------------------------------------------
-  telegramUsername: "demo_rental_admin",
-  telegramUrl: "https://t.me/demo_rental_admin",
+  telegramUsername: "bolevipmotors",
+  telegramUrl: "https://t.me/bolevipmotors",
 
   // --- Hero -----------------------------------------------------------------
   hero: {
@@ -45,18 +45,18 @@ export const siteConfig = {
   // with the site and is what a client edits to seed their own fleet.
   carCatalog: [
     {
-      id: "land-cruiser-prado",
-      title: "Toyota Land Cruiser Prado",
+      id: "Toyota-supra",
+      title: "Toyota supra",
       category: "SUVs & 4WD",
-      imageUrl: img("photo-1533473359331-0135ef1b58bf"),
+      imageUrl: "https://i.postimg.cc/Dzd9wNXT/anastase-maragos-Lrfuy93-h-Ac-unsplash.jpg",
       transmission: "Auto",
       fuel: "Diesel",
       seats: 7,
-      priceEtb: 15000,
+      priceEtb: 20000,
       available: true,
     },
     {
-      id: "toyota-rav4",
+      id: "toyota-rav9",
       title: "Toyota RAV4",
       category: "SUVs & 4WD",
       imageUrl: img("photo-1519641471654-76ce0107ad1b"),
